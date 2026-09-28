@@ -1,0 +1,191 @@
+/* ===== Responsive Design ===== */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-search {
+        grid-template-columns: 2fr 1fr auto;
+    }
+
+    .search-date {
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .nav-links {
+        gap: 1rem;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-search {
+        grid-template-columns: 1fr auto;
+        gap: 1rem;
+    }
+
+    .search-select {
+        display: none;
+    }
+
+    .auth-container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .auth-features {
+        max-width: 450px;
+        text-align: center;
+    }
+
+    .auth-features .feature {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .navbar .container {
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+        order: 3;
+        margin-top: 1rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .auth-buttons {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .hero {
+        height: auto;
+        min-height: 500px;
+        padding: 4rem 0;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-search {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-stats {
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .packages-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .package-tabs {
+        gap: 0.5rem;
+    }
+
+    .tab-btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .destinations-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .auth-box {
+        padding: 2rem;
+    }
+
+    .social-auth {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .hero-title {
+        font-size: 1.75rem;
+    }
+
+    .hero-stats {
+        gap: 1.5rem;
+    }
+
+    .stat h3 {
+        font-size: 2rem;
+    }
+
+    .package-actions {
+        flex-direction: column;
+    }
+
+    .package-actions .btn {
+        width: 100%;
+    }
+
+    .auth-tabs {
+        flex-direction: column;
+    }
+}
